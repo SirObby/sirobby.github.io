@@ -18,9 +18,10 @@
 
 }
 .headshot {
-    position: relative;
-    width: 200px;
-    left: 52%;
+    position: sticky;
+    width: 150px;
+    left: 51.2%;
+    top: 20.5%;
 }
 img {
 }
