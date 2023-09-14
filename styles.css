@@ -3,13 +3,16 @@
 }
 .content {
     position: absolute;
-    left: 25%;
+    left: 35%;
     top: 5%;
 }
 .name {
+    position: sticky;
+    top: 25%;
+}
+.title {
     position: absolute;
     top: 35%;
-
 }
 .gh_username {
 
@@ -17,13 +20,22 @@
 .headshot {
     position: relative;
     width: 250px;
-    left: 100%;
+    left: 52%;
 }
 img {
 }
-.fa-brands {
+a:link {
     text-decoration: none;
-}
-link {
-    
-}
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
